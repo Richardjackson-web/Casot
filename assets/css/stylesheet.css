@@ -1,3 +1,17 @@
+@media screen and (max-width: 320px){
+    .welcome{
+        font-size: 1.6rem !important;
+    }
+    .focus{
+        text-align: left !important;
+        text-align: justify !important;
+    }
+    ul{
+        margin-right:  !important;
+    }
+}
+
+
 .drop{
     border: 2px solid black;
 }
