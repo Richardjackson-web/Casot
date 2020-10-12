@@ -27,6 +27,7 @@ body{
 }
 .text{
     color: rgb(6, 93, 130) !important;
+    font-size: 25px;
 }
 .sot{
     background-color: rgb(34, 34, 34);
