@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
+    <title>CASOTs</title>
+</head>
+<body>
+    
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sot p-2">
+        <img src="/assets/img/logo.jpg" class="casot" height="45px" width="45px" alt="">
+        <a style="font-family: 'Libre Baskerville';" class="navbar-brand text text-center casot" href="#">&nbsp; &nbsp;<b> CASOTs</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul style="font-family: 'Libre Baskerville';" class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Contact Us</a>
+            </li>
+          
+          </ul>
+        </div>
+      </nav>
+
+<main class="container">
+      
+      <div class="mt-4">
+        <h2 style="font-family: 'Libre Baskerville';" class="text text-center">Welcome to Casots</h2>
+        <p style="font-family: 'Libre Baskerville'; text-align: justify;" class="text-center">CASOTs is currently focused on providing tertiary institution students with an online platform that will enable them;</p>
+        <ul class="ml-5" style="font-family: 'Libre Baskerville';">
+          <li>Easily ace challenging courses.</li>
+          <li>Save Cost.</li>
+          <li>Save Time.</li>
+          <li>Earn</li>
+        </ul>
+      </div>
+
+
+      <!-- Registration Area -->
+
+      <h4 style="font-family: 'Libre Baskerville';" class="text-center">Sign Up <span class="text"><b>HERE</b></span></h4>
+        <div style="font-family: 'Libre Baskerville';" class="text-center">
+          <button id="student" onclick="studentClick1()" class="btn btn-success">Student</button>
+          <button id="nonStudent" onclick="studentClick2()" class="btn btn-success">Non-Student</button>
+        </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+              
+          </div>
+          <div class="col-md-6">
+            <form id="studentForm" style="font-family: 'Libre Baskerville';">
+              <h3 class="mt-5 text">STUDENT</h3>
+              <div class="form-group">
+                <label for="exampleInputEmail1">First Name</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="First Name">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Last Name</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Last Name">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email Address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Phone Number</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Phone Number">
+              </div>
+              <label for="cars">Select Institution:</label>
+              <select id="cars" name="institutions">
+                <option value="volvo">University of Uyo</option>
+                <option value="saab">Akwa-Ibom State University</option>
+                <option value="fiat">Uyo City Polytechnic</option>
+                <option value="audi">Akwa Polytechnic</option>
+              </select><br>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Department</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Department">
+              </div>
+              <label for="cars">Level:</label>
+              <select id="cars" name="institutions">
+                <option value="volvo">100</option>
+                <option value="saab">200</option>
+                <option value="fiat">300</option>
+                <option value="audi">400</option>
+                <option value="audi">500</option>
+              </select><br><br>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+
+            <form id="nonStudentForm" style="font-family: 'Libre Baskerville';" class="mt-5">
+              <h3 class="text">NON-STUDENT</h3>
+              <div class="form-group">
+                <label for="exampleInputEmail1">First Name</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="First Name">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Last Name</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Last Name">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email Address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Phone Number</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Phone Number">
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+          <div class="col-md-3">
+              
+          </div>
+        </div>
+      </div>
+
+
+    </main>
+
+    <script src="js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

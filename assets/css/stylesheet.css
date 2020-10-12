@@ -1,0 +1,22 @@
+.drop{
+    border: 2px solid black;
+}
+#cars{
+    padding: 5px;
+    border-radius: 10px;
+}
+body{
+    background-color: rgb(229, 236, 241); 
+}
+.submit{
+    background-color: white;
+}
+.casot{
+    font-size: 30px !important;
+}
+.text{
+    color: rgb(6, 93, 130) !important;
+}
+.sot{
+    background-color: rgb(34, 34, 34);
+}
