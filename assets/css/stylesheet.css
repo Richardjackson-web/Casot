@@ -5,10 +5,31 @@
     .focus{
         text-align: left !important;
         text-align: justify !important;
+        font-size: 16px !important;
+    }
+    .foc{
+        font-size: 16px !important;
+    }
+    .will{
+        font-size: 19px !important;
+    }
+    .sign{
+        font-size: 27px !important;
+    }
+    .img{
+        width: 100%;
+        height: 150px;
     }
 }
-
-
+.focus{
+    font-size: 20px;
+}
+.foc{
+    font-size: 20px;
+}
+.welcome{
+    font-size: 40px;
+}
 .drop{
     border: 2px solid black;
 }
