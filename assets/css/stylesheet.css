@@ -86,9 +86,6 @@ body{
     color: rgb(6, 93, 130) !important;
     font-size: 25px;
 }
-.sot{
-    background-color: rgb(34, 34, 34);
-}
 
 /* Button used to open the contact form - fixed at the bottom of the page */
 /* .open-button {
@@ -153,3 +150,6 @@ footer{
 .second-page{
     margin-top: 5rem;
 }
+
+/* Forgot */
+
