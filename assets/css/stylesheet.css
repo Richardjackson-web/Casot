@@ -42,7 +42,14 @@
     .volvo{
         font-size: 13px !important;
     }
-    
+    /* Forgot Page */
+    .forgot-pass{
+        font-size: 25px;
+    }
+    .please{
+        text-align: justify;
+        font-size: 13px;
+    }
 }
 .fixed-nav-bar {
     position: fixed;
