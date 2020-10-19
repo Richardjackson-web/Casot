@@ -33,6 +33,16 @@
     .dent{
         font-size: 18px !important;
     }
+    .field{
+        font-size: 13px !important;
+    }
+    ::placeholder{
+        font-size: 13px !important;
+    }
+    .volvo{
+        font-size: 13px !important;
+    }
+    
 }
 .fixed-nav-bar {
     position: fixed;
@@ -112,19 +122,19 @@ body{
     text-align: center;
 }
 #studentForm{
-    border: 12px solid rgb(141, 201, 243);
+    border: 8px solid rgb(141, 201, 243);
     background-color: rgb(192, 218, 236);
     border-radius: 20px;
     padding: 5px;
 }
 #nonStudentForm{
-    border: 12px solid rgb(141, 201, 243);
+    border: 8px solid rgb(141, 201, 243);
     background-color: rgb(192, 218, 236);
     border-radius: 20px;
     padding: 5px;
 }
 #loginForm{
-    border: 12px solid rgb(141, 201, 243);
+    border: 8px solid rgb(141, 201, 243);
     background-color: rgb(192, 218, 236);
     border-radius: 20px;
     padding: 5px;   

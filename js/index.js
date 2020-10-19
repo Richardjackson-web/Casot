@@ -39,3 +39,7 @@ function openForm() {
 //         }
 //     });
 // });
+
+var form = document.getElementById("studentForm");
+function handleForm(event) { event.preventDefault(); } 
+form.addEventListener('cancel', handleForm);
