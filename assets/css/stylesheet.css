@@ -1,24 +1,37 @@
 @media screen and (max-width: 320px){
     .welcome{
-        font-size: 1.6rem !important;
+        font-size: 1.2rem !important;
     }
     .focus{
         text-align: left !important;
         text-align: justify !important;
-        font-size: 16px !important;
+        font-size: 14px !important;
     }
     .foc{
-        font-size: 16px !important;
+        font-size: 14px !important;
     }
     .will{
-        font-size: 19px !important;
+        font-size: 17px !important;
+    }
+    .account{
+        font-size: 17px;
     }
     .sign{
-        font-size: 27px !important;
+        font-size: 22px !important;
+        display: block;
     }
     .img{
         width: 100%;
         height: 150px;
+    }
+    .home, .about, .contact{
+        font-size: 13px;
+    }
+    .buttons{
+        font-size: 16px !important;
+    }
+    .dent{
+        font-size: 18px !important;
     }
 }
 .fixed-nav-bar {

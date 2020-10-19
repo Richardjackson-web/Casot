@@ -14,22 +14,22 @@
 
     <!-- Navigation Bar -->
 
-    <nav class="navbar fixed-nav-bar navbar-trans navbar-inverse navbar-expand-lg navbar-dark sot p-2">
+    <nav class="navbar fixed-nav-bar navbar-trans navbar-inverse navbar-expand-lg navbar-light bg-light sot p-2">
         <img src="/assets/img/logo.jpg" class="casot" height="45px" width="45px" alt="">
         <a style="font-family: 'Libre Baskerville';" class="navbar-brand text text-center casot" href="/index.html">&nbsp; &nbsp;<b> CASOTs</b></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul style="font-family: 'Libre Baskerville';" class="navbar-nav ml-auto">
+          <ul style="font-family: 'Libre Baskerville';" class="navbar-nav ml-auto pr-5">
             <li class="nav-item active">
-              <a class="nav-link text-white" href="/index.html">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link text-dark home" href="/index.html"><i class="fa fa-home" aria-hidden="true"></i><b> Home</b> <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="aboutUs.html">About Us</a>
+              <a class="nav-link text-dark about" href="aboutUs.html"><i class="fa fa-address-book" aria-hidden="true"></i><b> About Us</b></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Contact Us</a>
+              <a class="nav-link text-dark contact" href="#"><i class="fa fa-phone" aria-hidden="true"></i><b> Contact Us</b></a>
             </li>
           </ul>
         </div>
@@ -113,12 +113,12 @@
            <!-- Registration Area -->
         <div style="font-family: 'Libre Baskerville';" class="text-center">
           <h4 class="text-center will">Will you love to be on this platform?</h4>
-          <span style="font-family: 'Libre Baskerville';" class="text sign"><b>Sign up HERE </b></span><button id="student" style="font-size: 19px;" onclick="studentClick1()" class="btn btn-success">Student</button>
-          <button id="nonStudent" style="font-size: 19px;" onclick="studentClick2()" class="btn btn-success">Non-Student</button>
+          <span style="font-family: 'Libre Baskerville';" class="text sign"><b>Sign up HERE </b></span><button id="student" style="font-size: 19px;" onclick="studentClick1()" class="btn btn-success buttons">Student</button>
+          <button id="nonStudent" style="font-size: 19px;" onclick="studentClick2()" class="btn btn-success buttons">Non-Student</button>
         </div>
         <br>
         <div id="already" style="font-family: 'Libre Baskerville';" class="text-center">
-          <h4 class="account">Already have an account?</h4> <button class="btn btn-success open-button" style="font-size: 19px;" onclick="openForm()">Login</button>
+          <h4 class="account">Already have an account?</h4> <button class="btn btn-success open-button buttons" style="font-size: 19px;" onclick="openForm()">Login</button>
         </div>
 
 
@@ -126,10 +126,10 @@
 
       <div class="container">
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-md-3 col-sm-1">
               
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 col-sm-10">
 
                 <!-- Log In Form -->
 
@@ -240,7 +240,7 @@
              </div>
             </form>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 col-sm-1">
           </div>
         </div>
       </div>
@@ -250,9 +250,11 @@
 
     <!-- Footer -->
 
-    <footer class="mt-2">
+    <footer class=" mt-2 bg-dark container-fluid"  style="text-align: center; font-family: 'Libre Baskerville'; height: 100%;">
+       
+      <p style="color: silver;" class="pt-3 pb-3">&copy; <script>new Date().getFullYear()>2010&&document.write(new Date().getFullYear());</script>, Casots.</p>
 
-    </footer>
+ </footer>
 
     <script src="js/index.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
