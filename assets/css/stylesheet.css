@@ -164,3 +164,6 @@ footer{
 .sent{
     display: none;
 }
+.reset{
+    color: #fff !important;
+}
