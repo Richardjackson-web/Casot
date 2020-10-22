@@ -30,8 +30,11 @@ function openForm() {
 
   document.getElementById("student").style.display = "none";
   document.getElementById("nonStudent").style.display = "none";
+  document.getElementById("arrowd").style.display = "none"
 
 function start() {
+  document.getElementById("arrowr").style.display = "none"
+  document.getElementById("arrowd").style.display = "inline-block"
   document.getElementById("student").style.display = "inline-block";
   document.getElementById("nonStudent").style.display = "inline-block"
 }
