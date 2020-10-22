@@ -11,32 +11,31 @@
 </head>
 <body>
     
-
     <!-- Navigation Bar -->
 
-    <nav class="navbar fixed-nav-bar navbar-trans navbar-inverse navbar-expand-lg navbar-light bg-light sot p-2">
+    <nav class="navbar fixed-nav-bar navbar-trans navbar-inverse navbar-expand-lg navbar-light sot p-2">
         <img src="/assets/img/logo.jpg" class="casot" height="45px" width="45px" alt="">
-        <a style="font-family: 'Libre Baskerville';" class="navbar-brand text text-center casot" href="/index.html">&nbsp; &nbsp;<b> CASOTs</b></a>
+        <a style="font-family: 'Libre Baskerville';" class="navbar-brand text-center text-white casot" href="/index.html">&nbsp; &nbsp;<b> CASOTs</b></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul style="font-family: 'Libre Baskerville';" class="navbar-nav ml-auto pr-5">
             <li class="nav-item active">
-              <a class="nav-link text-dark home" href="/index.html"><b> Home</b> <span class="sr-only">(current)</span></a>
+              <a class="nav-link text-white home" href="/index.html"><b> Home</b> <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark about" href="aboutUs.html"><b> About Us</b></a>
+              <a class="nav-link text-white about" href="aboutUs.html"><b> About Us</b></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark contact" href="contactUs.html"><b> Contact Us</b></a>
+              <a class="nav-link text-white contact" href="contactUs.html"><b> Contact Us</b></a>
             </li>
           </ul>
         </div>
       </nav>
 
 
-
+<div style="position: relative; min-height: 100vh;">
 
        <!-- Hero Section -->
 
@@ -90,7 +89,7 @@
 
       <!-- Main Body -->
 
-<main class="container">
+<main class="container mb-5">
       <div class="mt-4">
         <h2 style="font-family: 'Libre Baskerville'; font-size: 40px;" class="text text-center welcome"><b>Welcome to Casots</b></h2><br>
         <p style="font-family: 'Libre Baskerville'; text-align: justify !important;" class="text-center focus">CASOTs is currently focused on providing tertiary 
@@ -115,8 +114,11 @@
            <!-- Registration Area -->
         <div style="font-family: 'Libre Baskerville';" class="text-center">
           <h4 class="text-center will">Will you love to be on this platform?</h4>
-          <span style="font-family: 'Libre Baskerville';" class="text sign start" onclick="start()"><b>Get Started </b></span><button id="student" style="font-size: 19px;" onclick="studentClick1()" class="btn btn-success buttons">Student</button>
-          <button id="nonStudent" style="font-size: 19px;" onclick="studentClick2()" class="btn btn-success buttons">Non-Student</button>
+          <span style="font-family: 'Libre Baskerville';" class="text sign start" onclick="start()"><b>Get Started </b></span>
+        </div>
+        <div style="font-family: 'Libre Baskerville';" class="button">
+          <button id="student" style="font-size: 19px;" onclick="studentClick1()" class="btn btn-success buttons m-auto"><b>Student</b></button>
+        <button id="nonStudent" style="font-size: 19px;" onclick="studentClick2()" class="btn btn-success buttons m-auto"><b>Non-Student</b></button>
         </div>
         <br>
         <div id="already" style="font-family: 'Libre Baskerville';" class="text-center">
@@ -254,11 +256,12 @@
 
     <!-- Footer -->
 
-    <footer class=" mt-2 bg-dark container-fluid"  style="text-align: center; font-family: 'Libre Baskerville'; height: 100%;">
+    <footer class=" mt-5 bg-dark container-fluid"  style="text-align: center; font-family: 'Libre Baskerville'; height: 100%; position: absolute; bottom: -5%; height: 2.5rem; padding-bottom: 2.5rem;">
        
-      <p style="color: silver;" class="pt-3 pb-3">&copy; <script>new Date().getFullYear()>2010&&document.write(new Date().getFullYear());</script>, Casots.</p>
+      <p style="color: silver;" class="pt-2">&copy; <script>new Date().getFullYear()>2010&&document.write(new Date().getFullYear());</script>, Casots.</p>
 
  </footer>
+</div>
     <script src="js/index.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

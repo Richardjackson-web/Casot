@@ -32,8 +32,8 @@ function openForm() {
   document.getElementById("nonStudent").style.display = "none";
 
 function start() {
-  document.getElementById("student").style.display = "block";
-  document.getElementById("nonStudent").style.display = "block"
+  document.getElementById("student").style.display = "inline-block";
+  document.getElementById("nonStudent").style.display = "inline-block"
 }
 //   $(function () {
 //     $(window).on('scroll', function () {
