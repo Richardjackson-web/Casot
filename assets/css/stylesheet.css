@@ -42,6 +42,9 @@
     .volvo{
         font-size: 13px !important;
     }
+    .start{
+        
+    }
     /* Forgot Page */
     .forgot-pass{
         font-size: 25px;
@@ -157,7 +160,9 @@ footer{
 .second-page{
     margin-top: 5rem;
 }
-
+.about-text{
+    text-align: justify;
+}
 /* Contact Us Page */
 .third-page{
     margin-top: 5rem;

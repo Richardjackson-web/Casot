@@ -28,8 +28,13 @@ function openForm() {
     document.getElementById("student").style.display = "none";
   }
 
+  document.getElementById("student").style.display = "none";
+  document.getElementById("nonStudent").style.display = "none";
 
-
+function start() {
+  document.getElementById("student").style.display = "block";
+  document.getElementById("nonStudent").style.display = "block"
+}
 //   $(function () {
 //     $(window).on('scroll', function () {
 //         if ( $(window).scrollTop() > 10 ) {
